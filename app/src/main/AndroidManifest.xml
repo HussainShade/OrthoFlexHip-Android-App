@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="33"
+        android:minSdkVersion="26" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="33"
+        android:minSdkVersion="26"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <!--
+ Required only if your app needs to access videos
+         that other apps created.
+    -->
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_VIDEO"
+        tools:ignore="SelectedPhotoAccess" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hasFragileUserData="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OrthoFlexHip"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewExerciseVideosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Item6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Item5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Items4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Item3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Items2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientDischargeSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientViewXrayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MedicationsPatientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseVideosPatinetsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddMedicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HarrisHipScore3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BlankFragment"
+            android:exported="false" />
+        <activity
+            android:name=".BlankFragment2"
+            android:exported="false" />
+        <activity
+            android:name=".BlankFragment3"
+            android:exported="false" />
+        <activity
+            android:name=".BlankFragment4"
+            android:exported="false" />
+        <activity
+            android:name=".HarrisHipScore2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HarrisHipScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavHeaderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMedicalDetailsDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddPatientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadExerciseVideosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorHomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewXRayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseVideosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ItemsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrackAppoinmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookAnAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DischargeSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MedicationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMedicalDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientHompageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LaunchScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

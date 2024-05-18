@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">OrthoFlexHip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="dropdown_items">
+        <item>08:00AM - 09:00AM</item>
+        <item>09:00AM - 10:00AM</item>
+        <item>10:00AM - 11:00AM</item>
+        <item>12:00PM - 01:00PM</item>
+        <item>02:00PM - 03:00PM</item>
+    </string-array>
+    <string-array name="Antibiotics">
+        <item>INJ.TAXM 1GM</item>
+        <item>INJ.CEFGLOBE FORTE 1.5GM</item>
+        <item>INJ REFLIN 1GM</item>
+        <item>INJ.GENTAMYCIN 80MG</item>
+        <item>INJ.AMIKACIN 500MG</item>
+        <item>INJ METRO 500MG</item>
+        <item>TAB.TAXIM O 200MG</item>
+        <item>TAB.CEFRAM 500MG</item>
+    </string-array>
+    <string-array name="Frequency">
+        <item>OD</item>
+        <item>BD</item>
+        <item>TID</item>
+        <item>QID</item>
+    </string-array>
+    <string-array name="Analgesics">
+        <item>TAB.ZERODOL-P</item>
+        <item>TAB.ZERODOL TH MAX</item>
+        <item>CAP.MYORIL 4MG</item>
+        <item>CAP.MYORIL 8MG</item>
+        <item>TAB.TOLYDOL</item>
+        <item>TAB.TAPENAX ER</item>
+        <item>TAB.PARA 500MG</item>
+        <item>TAB DOLO 650MG</item>
+        <item>TAB.BRUFEN</item>
+        <item>INJ.NEOMOL 1GM IV</item>
+        <item>INJ.DICLO 75MG IM</item>
+        <item>INJ.TRAMADOL 100MG IV</item>
+    </string-array>
+    <string-array name="Antacids">
+        <item>TAB.PAN 40MG</item>
+        <item>TAB.PAN D</item>
+        <item>INJ.PAN 40MG</item>
+        <item>CAP.OMEZ</item>
+        <item>TAB RANTAC 150MG</item>
+    </string-array>
+    <string-array name="Anti_edema_drugs">
+        <item>TAB.CHYMORAL FORTE</item>
+        <item>TAB.PHILOGAM</item>
+        <item>TAB.ENZITRA-DS</item>
+        <item>TAB.LYMPEDIM</item>
+    </string-array>
+    <string-array name="Supportive_drugs">
+        <item>TAB.LIMCEE</item>
+        <item>TAB.CALCIMAX K2</item>
+        <item>TAB.CISS-Q</item>
+        <item>TAB.TENDOCARE FORTE</item>
+        <item>TAB.COBUILT PLUS</item>
+        <item>TAB.SHELCAL</item>
+        <item>TAB.JOINTACE-DN</item>
+        <item>SACHET VIT D3</item>
+        <item>TAB.NUEROBION FORTE</item>
+        <item>TAB GABANTIN</item>
+        <item>CAP.PREGABA-M 75MG</item>
+    </string-array>
+    <string-array name="physiotheraphy">
+        <item>HAMSTRING AND QUADRICEPS STRENGTHENING EXERCISES</item>
+        <item>KNEE ROM EXERCISES</item>
+        <item>NON WEIGHT BEARING WALKING</item>
+        <item>PARTIAL WEIGHT BEARING WALKING</item>
+        <item>FULL WEIGHT BEARING WALKING</item>
+        <item>ABDUCTOR STRENGTHENING EXERCISES</item>
+        <item>OTHERS</item>
+    </string-array>
+    <string-array name="Pain">
+        <item>None,or ignores it</item>
+        <item>Slight,occasional, no compromise in activity</item>
+        <item>Mild pain, no effect on average activities, rarely moderate pain with unusual activity, may take aspirin</item>
+        <item>Moderate pain, tolerable but makes concessions to pain. Some limitations of ordinary activity or work. May require occasional pain medication stronger than aspirin</item>
+        <item>Marked pain, serious limitation of activities</item>
+        <item>Totally disabled, crippled, pain in bed, bedridden</item>
+    </string-array>
+    <string-array name="Distance_walked">
+        <item>Unlimited</item>
+        <item>Six blocks (30 minutes)</item>
+        <item>Two or three blocks (10 - 15 minutes)</item>
+        <item>Indoors only</item>
+        <item>Bed and chair only</item>
+    </string-array>
+    <string-array name="Activities_shoes_socks">
+        <item>With ease</item>
+        <item>With difficulty</item>
+        <item>Unable to fit or tie</item>
+    </string-array>
+    <string-array name="Public_transportation">
+        <item>Able to use transportation (bus)</item>
+        <item>Unable to use public transportation (bus)</item>
+    </string-array>
+    <string-array name="Support">
+        <item>None</item>
+        <item>Cane/Walking stick for long walks</item>
+        <item>Cane/Walking stick most of the time</item>
+        <item>One crutch</item>
+        <item>Two Canes/Walking sticks</item>
+        <item>Two crutches or not able to walk</item>
+    </string-array>
+    <string-array name="Limp">
+        <item>None</item>
+        <item>Slight</item>
+        <item>Moderate</item>
+        <item>Severe or unable to walk</item>
+    </string-array>
+    <string-array name="Stairs">
+        <item>Normally without using a railing</item>
+        <item>Normally using a railing</item>
+        <item>In any manner</item>
+        <item>Unable to do stairs</item>
+    </string-array>
+    <string-array name="Sitting">
+        <item>Comfortably, ordinary chair for one hour</item>
+        <item>On a high chair for 30 minutes</item>
+        <item>Unable to sit comfortably on any chair</item>
+    </string-array>
+    <string-array name="Section_2">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="Total_degrees_of_Flexion">
+        <item>None</item>
+        <item>0 > 8</item>
+        <item>8 > 16</item>
+        <item>16 > 24</item>
+        <item>24 > 32</item>
+        <item>32 > 40</item>
+        <item>40 > 45</item>
+        <item>45 > 55</item>
+        <item>55 > 65</item>
+        <item>65 > 70</item>
+        <item>70 > 75</item>
+        <item>75 > 80</item>
+        <item>80 > 90</item>
+        <item>90 > 100</item>
+        <item>100 > 110</item>
+    </string-array>
+    <string-array name="Total_degrees_of_Abduction">
+        <item>None</item>
+        <item>0 > 5</item>
+        <item>5 > 10</item>
+        <item>10 > 15</item>
+        <item>15 > 20</item>
+    </string-array>
+    <string-array name="Total_degrees_of_Ext_Rotation">
+        <item>None</item>
+        <item>0 > 5</item>
+        <item>5 > 10</item>
+        <item>10 > 15</item>
+    </string-array>
+    <string-array name="Total_degrees_of_Adduction">
+        <item>None</item>
+        <item>0 > 5</item>
+        <item>5 > 10</item>
+        <item>10 > 15</item>
+    </string-array>
+    <string-array name="stairs">
+        <item>Normally without using a railing</item>
+        <item>Normally using a railing</item>
+        <item>In any manner</item>
+        <item>Unable to do stairs</item>
+    </string-array>
+
+
+</resources>

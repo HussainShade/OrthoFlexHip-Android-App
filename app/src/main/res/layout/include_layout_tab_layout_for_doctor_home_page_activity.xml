@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.tabs.TabLayout
+        app:tabIconTint="@color/green"
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        app:tabTextAppearance="@style/MyTabTextStyle"
+        android:layout_gravity="bottom"
+        app:tabSelectedTextColor="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_layout"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:icon="@drawable/home"
+            android:background="@color/green"
+            android:text="Home" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/TabItem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/person"
+            android:text="Patient" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/TabItem3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/calender"
+            android:text="Appoinment" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/TabItem4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/video"
+            android:text="Video"
+            />
+
+    </com.google.android.material.tabs.TabLayout>
+</LinearLayout>
